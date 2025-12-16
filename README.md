@@ -1,15 +1,18 @@
-# <img width="408" height="612" alt="ic_guy" src="https://github.com/user-attachments/assets/1298150c-5e5e-4359-b68b-4c5dd4211d85" />
+<div align="center">
 
-Student Run 🏃‍♂️🎓
+<img src="https://github.com/user-attachments/assets/1298150c-5e5e-4359-b68b-4c5dd4211d85" alt="ic_guy" height="250" />
 
-  > An educational arcade game combining logic, reflexes, and dynamic UI management.
+# Student Run 🏃‍♂️🎓
 
-  <p>
-    <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android" />
-    <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" />
-    <img src="https://img.shields.io/badge/Architecture-MVC-blue?style=flat" alt="MVC" />
-    <img src="https://img.shields.io/badge/IDE-Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white" alt="Android Studio" />
-  </p>
+> An educational arcade game combining logic, reflexes, and dynamic UI management.
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Architecture-MVC-blue?style=flat" alt="MVC" />
+  <img src="https://img.shields.io/badge/IDE-Android%20Studio-3DDC84?style=flat&logo=android-studio&logoColor=white" alt="Android Studio" />
+</p>
+
 </div>
 
 ---
@@ -22,7 +25,7 @@ Student Run 🏃‍♂️🎓
 ## 🎥 Demo
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/2a3cd701-9aed-4b41-8fec-a0f301e34e40" width="400" />
+  <video src="https://github.com/user-attachments/assets/2a3cd701-9aed-4b41-8fec-a0f301e34e40" width="400" controls="controls" />
 </div>
 
 ---
@@ -38,7 +41,7 @@ Student Run 🏃‍♂️🎓
 ## 🛠️ Technical Implementation
 
 ### 1. The Logic (Model & Controller)
-Instead of relying on unity-like engines, the game logic is pure Kotlin:
+Instead of relying on Unity-like engines, the game logic is pure Kotlin:
 * **`GameManager`**: The brain. Handles spawning, movement, and collision checks.
 * **`Player`**: Simple data class tracking lives and lane position.
 * **`Constants`**: Global configuration (Grid size, Game speed).
@@ -46,7 +49,7 @@ Instead of relying on unity-like engines, the game logic is pure Kotlin:
 ### 2. The User Interface (View)
 The app flows through three main stages:
 * **Entry (`HomeActivity`)**: Initialization and ViewBinding setup.
-* **Gameplay (`GameActivity`)**: 
+* **Gameplay (`GameActivity`)**:
     * Updates the UI based on `GameManager` state.
     * Manages the Life-Cycle (`onPause`/`onResume`).
 * **Summary (`ResultActivity`)**: Handles high scores and navigation back to the start.
@@ -54,9 +57,11 @@ The app flows through three main stages:
 ---
 
 ## ⚙️ How to Run
-1.  Clone this repo.
-2.  Open in **Android Studio**.
-3.  Sync Gradle and hit **Run**.
+1. Clone this repo.
+2. Open in **Android Studio**.
+3. Sync Gradle and hit **Run**.
 
 ---
-**Created by Ofek Fanian**
+<div align="center">
+    <b>Created by Ofek Fanian</b>
+</div>
