@@ -32,7 +32,7 @@
 
 ## ✨ Key Features
 * **Dynamic Grid Engine:** A custom logic engine managing a 7x3 matrix.
-* **MVC Principles:** Logic (`GameManager`) is decoupled from the UI (`GameActivity`) for better maintainability.
+* **Logic Separation:** The `GameManager` handles game states and rules, while `GameActivity` focuses on UI updates and interaction.
 * **Haptic Feedback:** Vibrator service integration for collisions.
 * **Custom Game Loop:** Uses `Handler` and `Runnable` for precise timing (500ms tick).
 
