@@ -7,21 +7,19 @@
 ![Tools](https://img.shields.io/badge/Tools-Android_Studio-blue)
 
 ## 📌 About The Project
-**Student Run** is a lane-based survival game developed to demonstrate **MVC architecture** in Android. The player must navigate obstacles on a 7x3 grid, managing lives and reacting to increasing speeds.
+**Student Run** is a lane-based survival game developed to demonstrate **clean architecture** and **logic separation** in Android. The player must navigate obstacles on a 7x3 grid, managing lives and reacting to increasing speeds.
 
 ---
 
 ## 🎥 Demo
 
-
 https://github.com/user-attachments/assets/78cf0727-a4d5-4ee7-82cf-a5a911ae75f9
-
 
 ---
 
 ## ✨ Key Features
 * **Dynamic Grid Engine:** A custom logic engine managing a 7x3 matrix.
-* **MVC Pattern:** Strict separation between Game Logic, UI, and Data.
+* **MVC Principles:** Separates the Game Logic (`GameManager`) from the UI (`GameActivity`) for better code maintainability.
 * **Haptic Feedback:** Vibrator service integration for collisions.
 * **Custom Game Loop:** Uses `Handler` and `Runnable` for precise timing (500ms tick).
 
