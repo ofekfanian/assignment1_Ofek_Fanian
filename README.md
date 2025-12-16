@@ -1,9 +1,6 @@
-<div align="center">
+# <img width="408" height="612" alt="ic_guy" src="https://github.com/user-attachments/assets/1298150c-5e5e-4359-b68b-4c5dd4211d85" />
 
-  <img src="app/src/main/res/drawable/ic_guy_end.png" alt="Student Run Logo" width="280">
-  <br/>
-
-  # Student Run 🏃‍♂️🎓
+Student Run 🏃‍♂️🎓
 
   > An educational arcade game combining logic, reflexes, and dynamic UI management.
 
