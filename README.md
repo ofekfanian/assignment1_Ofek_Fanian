@@ -1,10 +1,17 @@
-# Student Run 🏃‍♂️🎓
+<div align="center">
+  <img src="app/src/main/res/drawable/ic_guy.png" alt="Student Run Character" width="120">
+  <h1>Student Run 🏃‍♂️🎓</h1>
+</div>
 
 > An educational arcade game combining logic, reflexes, and dynamic UI management.
 
+<div align="center">
+  
 ![Android](https://img.shields.io/badge/Platform-Android-green)
 ![Language](https://img.shields.io/badge/Language-Kotlin-purple)
 ![Tools](https://img.shields.io/badge/Tools-Android_Studio-blue)
+
+</div>
 
 ## 📌 About The Project
 **Student Run** is a lane-based survival game developed to demonstrate **clean architecture** and **logic separation** in Android. The player must navigate obstacles on a 7x3 grid, managing lives and reacting to increasing speeds.
@@ -48,4 +55,5 @@ The app flows through three main stages:
 2.  Open in **Android Studio**.
 3.  Sync Gradle and hit **Run**.
 
+---
 **Created by Ofek Fanian**
