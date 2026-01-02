@@ -25,8 +25,11 @@
 ## 🎥 Demo
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/2a3cd701-9aed-4b41-8fec-a0f301e34e40" width="400" controls="controls" />
+  <video src="https://github.com/user-attachments/assets/df2bc092-443f-467c-b590-1d94664f2b02" width="400" controls="controls" />
 </div>
+
+
+
 
 ---
 
