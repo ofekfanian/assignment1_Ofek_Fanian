@@ -48,7 +48,6 @@ class GameActivity : AppCompatActivity(), TiltDetector.TiltCallback {
         gameGridManager = GameGridManager(binding.mainLAYGrid)
         player = Player(Constants.NUM_LANES)
 
-        // Passing 'this' as context to allow SignalManager usage inside GameManager
         gameManager = GameManager(
             context = this,
             numRows = Constants.NUM_ROWS,
@@ -135,7 +134,6 @@ class GameActivity : AppCompatActivity(), TiltDetector.TiltCallback {
         val crashCount = Constants.MAX_LIVES - gameManager.currentLives
 
         for (i in hearts.indices) {
-            // Logic: Hearts disappear from left to right as requested
             if (i < crashCount) {
                 hearts[i].setImageResource(R.drawable.ic_heart_empty)
             } else {

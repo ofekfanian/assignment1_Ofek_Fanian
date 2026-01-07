@@ -7,7 +7,6 @@ import com.example.assignment1_ofek_fanian.fragments.ListFragment
 import com.example.assignment1_ofek_fanian.fragments.MapFragment
 import com.example.assignment1_ofek_fanian.interfaces.CallbackHighScoreClick
 
-// Class updated to implement the renamed interface
 class LeaderboardActivity : AppCompatActivity(), CallbackHighScoreClick {
 
     private lateinit var binding: ActivityLeaderboardBinding

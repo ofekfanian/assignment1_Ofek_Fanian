@@ -33,8 +33,6 @@ class ScoreManager private constructor(context: Context) {
         }.take(10)
 
         val json = gson.toJson(scores)
-
-        // Fixed: Using KTX extension function to resolve the warning
         sp.edit {
             putString("KEY_SCORES", json)
         }

@@ -27,7 +27,6 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     ): View {
         _binding = FragmentMapBinding.inflate(inflater, container, false)
 
-        // Initialize map asynchronously
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
